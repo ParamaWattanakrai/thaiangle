@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppBreakdownConfig(AppConfig):
+class AppGeneralConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app_breakdown'
+    name = 'app_general'
